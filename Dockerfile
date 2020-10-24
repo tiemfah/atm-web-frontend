@@ -4,8 +4,8 @@ FROM openjdk:8-jdk-alpine
 # Set volume point to /tmp
 VOLUME /tmp
 
-# Make port 8080 available to the world outside container
-EXPOSE 8080
+# Make port 8090 available to the world outside container
+EXPOSE 8090
 
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # YOU NEED TO BUILD MAVEN PACKAGE FIRST
